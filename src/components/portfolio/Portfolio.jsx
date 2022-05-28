@@ -1,53 +1,45 @@
 import "./portfolio.css"
-import IMG1 from "../../assets/portfolio1.jpg"
-import IMG2 from "../../assets/portfolio2.jpg"
-import IMG3 from "../../assets/portfolio3.jpg"
-import IMG4 from "../../assets/portfolio4.jpg"
-import IMG5 from "../../assets/portfolio5.png"
-import IMG6 from "../../assets/portfolio6.jpg"
+import IMG1 from "../../assets/tesla.jpeg"
+import IMG2 from "../../assets/disney.jpeg"
+import IMG3 from "../../assets/e-commerce.png"
+import IMG4 from "../../assets/gpt.png"
+import IMG5 from "../../assets/chat.png"
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Portfolio Project 1",
-    github: "/",
-    demo: "/"
+    title: "Tesla Clone",
+    github: "https://github.com/nasyx-rakeeb/tesla-clone",
+    demo: "https://tesla-clone-4.vercel.app/"
   },
     {
     id: 2,
     image: IMG2,
-    title: "Portfolio Project 2",
-    github: "/",
-    demo: "/"
+    title: "Disney Clone",
+    github: "https://github.com/nasyx-rakeeb/cp-disney-plus-clone",
+    demo: "https://disney-clone-d1e27.web.app/"
   },
     {
     id: 3,
     image: IMG3,
-    title: "Portfolio Project 3",
-    github: "/",
-    demo: "/"
+    title: "E-Commerce Website",
+    github: "https://github.com/nasyx-rakeeb/ecommerce_sanity_stripe",
+    demo: "https://e-commerce-3.vercel.app/"
   },
     {
     id: 4,
     image: IMG4,
-    title: "Portfolio Project 4",
-    github: "/",
-    demo: "/"
+    title: "Modern UI/UX Website",
+    github: "https://github.com/nasyx-rakeeb/project_modern_ui_ux_gpt3",
+    demo: "https://modern-web-1.vercel.app/"
   },
     {
     id: 5,
     image: IMG5,
-    title: "Portfolio Project 5",
-    github: "/",
-    demo: "/"
-  },
-    {
-    id: 6,
-    image: IMG6,
-    title: "Portfolio Project 6",
-    github: "/",
-    demo: "/"
+    title: "Chat App",
+    github: "https://github.com/nasyx-rakeeb/airdrop?organization=nasyx-rakeeb&organization=nasyx-rakeeb",
+    demo: "https://relp.vercel.app/"
   }
   ]
 
@@ -68,6 +60,7 @@ const Portfolio = () => {
                 <div className="portfolio__item-cta">
                   <a href={github} target="_blank" rel="noreferrer" className="btn">GitHub</a>
                   <a href={demo} target="_blank" rel="noreferrer" className="btn">See It Live</a>
+                  <a href="/" target="_blank" rel="noreferrer" className="btn">Info</a>
                 </div>
               </article>
               )
