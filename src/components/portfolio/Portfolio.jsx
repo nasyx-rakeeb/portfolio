@@ -5,6 +5,7 @@ import IMG3 from "../../assets/e-commerce.png"
 import IMG4 from "../../assets/gpt.png"
 import IMG5 from "../../assets/chat.png"
 import IMG6 from "../../assets/twitter.png"
+import IMG7 from "../../assets/music.png"
 
 const data = [
   {
@@ -48,6 +49,13 @@ const data = [
     title: "Twitter Clone",
     github: "https://github.com/muzam1l/tclone",
     demo: "https://tclone.muzam1l.com/"
+    },
+    {
+    id: 7,
+    image: IMG7,
+    title: "App Landing Page",
+    github: "https://github.com/ZainRk/Youtube-Music-App",
+    demo: "https://music-app-two-wheat.vercel.app/"
     }
   ]
 
