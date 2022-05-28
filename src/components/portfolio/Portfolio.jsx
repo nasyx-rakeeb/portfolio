@@ -4,6 +4,7 @@ import IMG2 from "../../assets/disney.jpeg"
 import IMG3 from "../../assets/e-commerce.png"
 import IMG4 from "../../assets/gpt.png"
 import IMG5 from "../../assets/chat.png"
+import IMG6 from "../../assets/twitter.png"
 
 const data = [
   {
@@ -38,9 +39,16 @@ const data = [
     id: 5,
     image: IMG5,
     title: "Chat App",
-    github: "https://github.com/nasyx-rakeeb/airdrop?organization=nasyx-rakeeb&organization=nasyx-rakeeb",
+    github: "https://github.com/nasyx-rakeeb/airdrop",
     demo: "https://relp.vercel.app/"
-  }
+  },
+    {
+    id: 6,
+    image: IMG6,
+    title: "Twitter Clone",
+    github: "https://github.com/muzam1l/tclone",
+    demo: "https://tclone.muzam1l.com/"
+    }
   ]
 
 const Portfolio = () => {
